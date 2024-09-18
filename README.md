@@ -1,50 +1,21 @@
-# React + TypeScript + Vite
+# Tapping Adventure Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tapping Adventure Game is an engaging, fast-paced web-based game where players tap to keep a character happy and energized. Built with React and TypeScript, this game offers a fun and interactive experience for players of all ages.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic Gameplay**: Tap to increase your score and maintain your character's stamina.
+- **Leveling System**: Progress through levels as your score increases, with each level offering more points per tap.
+- **Stamina Management**: Keep an eye on your character's stamina - if it drops to zero, the game ends!
+- **Responsive Design**: Enjoy the game on various devices, from desktop to mobile.
+- **Visual Feedback**: Watch hearts float away with each successful tap, and see your character's mood change based on stamina levels.
 
-## Expanding the ESLint configuration
+## How to Play
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Click the "Start Game" button to begin.
+2. Tap or click inside the game area to increase your score and maintain stamina.
+3. Watch your stamina bar - if it empties, the game ends!
+4. Try to achieve the highest score possible before your stamina runs out.
+5. Level up by increasing your score, which in turn increases points per tap.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Enjoy playing Tapping Adventure Game! Don't forget to star the repository if you had fun!

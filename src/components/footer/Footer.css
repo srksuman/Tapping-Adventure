@@ -1,0 +1,25 @@
+/** @format */
+
+.game-footer {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+.game-footer p {
+    color: white;
+}
+
+.github-link {
+    color: #93c5fd;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.github-link:hover {
+    color: #bfdbfe;
+}

@@ -1,0 +1,83 @@
+/** @format */
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100svh;
+    background: linear-gradient(to bottom right, #6366f1, #a855f7, #ec4899);
+    padding: 1rem;
+}
+
+.game-instructions {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.highlight-yellow {
+    color: #fde047;
+}
+
+.highlight-green {
+    color: #86efac;
+}
+
+@keyframes floatAway {
+    0% {
+        transform: translate(-50%, -50%) translateY(0) scale(1) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -50%) translateY(-50px) scale(1.5) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes warning {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    75% {
+        transform: translateX(5px);
+    }
+}
+
+@keyframes levelUp {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

@@ -22,7 +22,7 @@ const TapTasticMoodBooster: React.FC = () => {
     const lastTapTime = useRef(Date.now());
 
     const calculatePointValue = (currentScore: number) => {
-        return Math.floor(currentScore / 100) + 1;
+        return Math.floor(currentScore / 1000) + 1;
     };
 
     useEffect(() => {

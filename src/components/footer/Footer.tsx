@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer: React.FC = () => (
     <footer className="game-footer">
         <p>
-            TapTastic Mood Booster | Created with ❤️ by Your Name |
+            Tapping Adventure Game| Created by Your SRK |
             <a href="https://github.com/yourusername/taptastic-mood-booster" target="_blank" rel="noopener noreferrer" className="github-link">
                 GitHub Repository
             </a>
